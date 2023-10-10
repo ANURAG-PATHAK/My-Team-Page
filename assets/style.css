@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 15vh 20vh 0vh 20vh;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 18vw;
+}
+
+.header {
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__heading {
+    padding: 2vw;
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.header__text {
+    font-family: "Poppins";
+    font-size: 1.25vw;
+    width: 30vw;
+}
+
+.header__text--heading {
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image--container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.job {
+    padding-left: 1vw;
+    writing-mode: vertical-rl;
+    font-size: 1vw;
+    font-family: "PT Serif";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.image--container-2,
+.image--container-5 {
+    margin-top: 20vh;
+}
+
+.name {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.footer {
+    position: relative;
+    padding: 3vw;
+}
+
+.footer--text {
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #BDBDBD;
+}
+
+@media (max-width: 800px) {
+    html {
+        padding: 4vh 4vh 0vh 4vh;
+        scroll-behavior: smooth;
+    }
+
+    .header {
+        padding-bottom: 5vh;
+    }
+
+    img {
+        width: 38vw;
+    }
+
+    .header__text {
+        font-size: 2vw;
+        width: 50vw;
+    }
+
+    .main__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image--container:nth-child(even) {
+        margin-top: 10vh;
+    }
+
+    .image--container-2,
+    .image--container-4
+    .image--container-6 {
+        margin-top: 20vh;
+    }
+    .image--container-5{
+        margin-top: 0;
+    }
+}
