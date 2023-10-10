@@ -94,16 +94,25 @@ a {
     }
 
     .header {
+        flex-direction: column;
+        align-items: space-between;
         padding-bottom: 5vh;
+    }
+
+    .header__heading {
+        padding: 2vw;
+        font-weight: 700;
+        font-size: 8vw;
+    }
+
+    .header__text {
+        padding: 2vw;
+        font-size: 3vw;
+        width: 60vw;
     }
 
     img {
         width: 38vw;
-    }
-
-    .header__text {
-        font-size: 2vw;
-        width: 50vw;
     }
 
     .main__container {
@@ -115,11 +124,11 @@ a {
     }
 
     .image--container-2,
-    .image--container-4
-    .image--container-6 {
+    .image--container-4 .image--container-6 {
         margin-top: 20vh;
     }
-    .image--container-5{
+
+    .image--container-5 {
         margin-top: 0;
     }
 }
