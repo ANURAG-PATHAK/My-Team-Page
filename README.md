@@ -39,14 +39,12 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+This is a simple 404 Not Found webpage.
+
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+<!-- This section should list any major frameworks you built your project using. Here are a few examples.-->
 
 - HTML
 - CSS
